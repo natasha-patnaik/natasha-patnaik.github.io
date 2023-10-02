@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="engineering.html">ENGINEERING</a></li>
+                    <li><a href="photography.html">PHOTOGRAPHY</a></li>
+                    <li><a href="more.html">MORE </a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()""></i>
+        </nav>
+    <h1>MATLAB App</h1>
+    <section class="footerProjects">
+        <div class="icons">
+            <a href="https://www.instagram.com/natashapatnaik" target="_blank">
+                <i class="fa fa-instagram"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/natasha-patnaik-6464311ba" target="_blank">
+                <i class="fa fa-linkedin"></i>
+            </a>
+        </div>
+    </section>  
+</section>
+
+            <section class="matlab">
+                <div class="row">
+                    <div class="matlab-col">
+                        <img src="images/1692877216872.jpeg">
+                    </div>
+                    <div class="matlab-col">
+                        <h1>Blue Whale Data Explorer</h1>
+                        <p> This app featured a sophisticated user interface that can be shared with other MATLAB users. The primary purpose of this project was to offer a faster, more user-friendly means of interacting with whale data, replacing the traditional method of producing individual reports for various whales and their activities. The app's development included customising the app layout and adding functionality using app properties and callbacks. The app enhanced usability and made the analysis process more engaging and efficient.</p>
+                        <p> The app was designed to create a user-friendly interface where the user can select a Whale ID of their choice from a list provided. On the right-hand side of the screen, the user can switch between tabs to either see some relevant data about the Whale ID they selected (such as their occurence of being spotted throughout the year) or see a geoplot showing the travel path of the selected whale.</p>
+                        <p>The whale data provided in an online course I completed, using which this app was produced.</p>
+                    </div>
+                </div>
+             </section>
+
+    </section>
+
+
+<!----Footer---->
+
+
+   <!-----JavaScript for Toggle Menu------>
+   <script>
+    var navLinks = document.getElementById("navLinks")
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-300px";
+    }
+    </script>
+</body>
+</html>

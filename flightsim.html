@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="engineering.html">ENGINEERING</a></li>
+                    <li><a href="photography.html">PHOTOGRAPHY</a></li>
+                    <li><a href="more.html">MORE </a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()""></i>
+        </nav>
+    <h1>Flight Simulator</h1>
+    <section class="footerProjects">
+        <div class="icons">
+            <a href="https://www.instagram.com/natashapatnaik" target="_blank">
+                <i class="fa fa-instagram"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/natasha-patnaik-6464311ba" target="_blank">
+                <i class="fa fa-linkedin"></i>
+            </a>
+        </div>
+    </section>  
+</section>
+
+            <section class="pendulum">
+                <div class="row">
+                    <div class="pendulum-col">
+                        <img src="images/IMG_5355.jpeg">
+                    </div>
+                    <div class="pendulum-col">
+                        <p> 
+                            One of the main specialities of the Department of Aeronautics, here at Imperial College London, is the full motion flight simulator. This laboratory exercise is conducted in the first year of our undergraduate degree, providing us with the opportunity to apply the theoretical knowledge gained from lectures to a real-world problem by testing the aircraft performance and the handling qualities of a twin-jet executive aeroplane. The lab consists of a full motion 360 degrees simulator and two static 180 degrees simulator.
+                        </p>
+                        <p>
+                            The lab was conducted in groups, with a pair using one of the simulators at any given time, where each pair took turns to act as a flight test pilot and flight test engineer throughout the lab. To test the aircraft’s performance, three tests were performed: stall test (using the full motion simulator), glide test and steady level flight test (using the static simulator). All tests were carried out using different configurations (clean and landing for the stall test) and different velocities.
+                        </p>
+                        <p>
+                            In addition to testing the aircraft performance, this lab was extremely useful in giving insight into flight controls, such as the control stick (or yoke) that connects to the ailerons to control roll, the rudder to control yaw and the elevators to control the pitch of the aircraft.
+                        </p>
+                        <p>
+                            The simulation was based at Gatwick Airport, where the flight testing pilot was in charge of take off and landing, as well as controlling the aircraft whilst airborne, of course. Towards the end of the lab, with some time remaining at the end, we had some fun by flying the aircraft upside down and landing the simulator aeroplane in water.
+                        </p>
+                    </div>
+                    
+                </div>
+             </section>
+
+    </section>
+
+
+   <!-----JavaScript for Toggle Menu------>
+   <script>
+    var navLinks = document.getElementById("navLinks")
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-300px";
+    }
+    </script>
+</body>
+</html>

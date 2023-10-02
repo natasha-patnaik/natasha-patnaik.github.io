@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="engineering.html">ENGINEERING</a></li>
+                    <li><a href="photography.html">PHOTOGRAPHY</a></li>
+                    <li><a href="more.html">MORE </a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()""></i>
+        </nav>
+    <h1>Aeroelastic Simulation</h1>
+    <section class="footerProjects">
+        <div class="icons">
+            <a href="https://www.instagram.com/natashapatnaik" target="_blank">
+                <i class="fa fa-instagram"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/natasha-patnaik-6464311ba" target="_blank">
+                <i class="fa fa-linkedin"></i>
+            </a>
+        </div>
+    </section>  
+</section>
+
+            <section class="pendulum">
+                <div class="row">
+                    <div class="pendulum-col">
+                        <img src="images/2023-05-17-2.png">
+                    </div>
+                    <div class="pendulum-col">
+                        <p> 
+                            A part of the term two Computing coursework involved producing an aeroelastic simulation of an aerofoil at different velocities over a period of time.
+                        </p>
+                        <p> 
+                            This simulation was produced solely using MATLAB, a programming software, that was also required to save the simulation as an MP4 file as the program was running (producing and saving the video using code, rather than manually). Some parameters were provided as raw data, which then had to be used in calculations (performed using MATLAB code) to generate the coordinates of the aerofoil, as it oscillated in a vertical motion, with the amplitude of each oscillation reducing over time.
+                        </p>
+                        
+                    </div>
+                    
+                </div>
+             </section>
+
+    </section>
+
+
+   <!-----JavaScript for Toggle Menu------>
+   <script>
+    var navLinks = document.getElementById("navLinks")
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-300px";
+    }
+    </script>
+</body>
+</html>

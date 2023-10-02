@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="engineering.html">ENGINEERING</a></li>
+                    <li><a href="photography.html">PHOTOGRAPHY</a></li>
+                    <li><a href="more.html">MORE </a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()""></i>
+        </nav>
+    <h1>Photography</h1>
+    <p>Here you’ll find some of my favourite photographs I have captured.</p>
+    <section class="footerProjects">
+        <div class="icons">
+            <a href="https://www.instagram.com/natashapatnaik" target="_blank">
+                <i class="fa fa-instagram"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/natasha-patnaik-6464311ba" target="_blank">
+                <i class="fa fa-linkedin"></i>
+            </a>
+        </div>
+    </section>  
+</section>
+
+    <section class = "photography">
+        <h1>  </h1>
+        <a href="https://unsplash.com/@natashapatnaik" class="red-btnEng" target="_blank">Find them all on Unsplash</a>
+        <div class="row">
+            <div class="photography-col">
+                <a href="https://unsplash.com/photos/2OMec02AHq4" target="_blank">
+                    <img src="images/natasha-patnaik-2OMec02AHq4-unsplash.jpg">,
+                    <div class="layer">
+                        <h3>Big Ben</h3>
+                        <p> Photo by Natasha Patnaik on Unsplash</p>
+                        <link rel="stylesheet">
+                    </div>
+                </a>
+            </div>
+            <div class="photography-col">
+                <a href="https://unsplash.com/photos/wyrddupU_54" target="_blank">
+                    <img src="images/natasha-patnaik-wyrddupU_54-unsplash.jpg">
+                    <div class="layer">
+                        <a href="https://unsplash.com/photos/wyrddupU_54" target="_blank">
+                            <h3>The Shard</h3>
+                            <p> Photo by Natasha Patnaik on Unsplash</p>
+                        </a>
+                    </div>
+                </a>
+            </div>
+            <div class="photography-col">
+                <a href="https://unsplash.com/photos/rit2ZH1bCqU" target="_blank">
+                    <img src="images/natasha-patnaik-rit2ZH1bCqU-unsplash.jpg">
+                    <div class="layer">
+                        <h3>The English Channel</h3>
+                        <p> Photo by Natasha Patnaik on Unsplash</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="row">
+            <div class="photography-col">
+                <a href="https://unsplash.com/photos/dt0BSlYqYpQ" target="_blank">
+                    <img src="images/natasha-patnaik-dt0BSlYqYpQ-unsplash.jpg">,
+                    <div class="layer">
+                        <h3>Three Buildings</h3>
+                        <p> Photo by Natasha Patnaik on Unsplash</p>
+                        <link rel="stylesheet">
+                    </div>
+                </a>
+            </div>
+            <div class="photography-col">
+                <a href="https://unsplash.com/photos/fYR72MLctkI" target="_blank">
+                    <img src="images/natasha-patnaik-fYR72MLctkI-unsplash.jpg">
+                    <div class="layer">
+                        <h3>London Bus at Night</h3>
+                        <p> Photo by Natasha Patnaik on Unsplash</p>
+                    </div>
+                </a>    
+            </div>
+            <div class="photography-col">
+                <a href="https://unsplash.com/photos/1Y_10aybS7M" target="_blank">
+                    <img src="images/natasha-patnaik-1Y_10aybS7M-unsplash.jpg">
+                    <div class="layer">
+                        <h3>The Moon</h3>
+                        <p> Photo by Natasha Patnaik on Unsplash</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+   <!-----JavaScript for Toggle Menu------>
+   <script>
+    var navLinks = document.getElementById("navLinks")
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-300px";
+    }
+    </script>
+</body>
+</html>

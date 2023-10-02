@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="engineering.html">ENGINEERING</a></li>
+                    <li><a href="photography.html">PHOTOGRAPHY</a></li>
+                    <li><a href="more.html">MORE </a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()""></i>
+        </nav>
+<h1>More</h1>
+
+        <section class="footerProjects">
+            <div class="icons">
+                <a href="https://www.instagram.com/natashapatnaik" target="_blank">
+                    <i class="fa fa-instagram"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/natasha-patnaik-6464311ba" target="_blank">
+                    <i class="fa fa-linkedin"></i>
+                </a>
+            </div>
+        </section> 
+        
+    </section>
+    <!---more-->
+    <section class="more">
+        <h1>East Meets West 2023</h1>
+        <p> East Meets West (EMW) is a student-led annual charity show organised by the Imperial College Indian Society and is one of the UK’s largest student shows. This year, EMW was presented as a Bollywood musical through its Drama, Music, Dance and Fashion acts. </p>
+
+        <div class="row">
+            <div class="more-col">
+                <img src="images/East Meets West 2023-0113.jpg">
+                <div class="layer">
+                    <a href="teamjalwa.html">
+                     <h3>Find out more</h3>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+   <!-----JavaScript for Toggle Menu------>
+   <script>
+    var navLinks = document.getElementById("navLinks")
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-300px";
+    }
+    </script>
+</body>
+</html>

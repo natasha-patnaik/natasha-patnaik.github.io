@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="engineering.html">ENGINEERING</a></li>
+                    <li><a href="photography.html">PHOTOGRAPHY</a></li>
+                    <li><a href="more.html">MORE </a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()""></i>
+        </nav>
+    <h1>Beam Bending Simulation</h1>
+    <section class="footerProjects">
+        <div class="icons">
+            <a href="https://www.instagram.com/natashapatnaik" target="_blank">
+                <i class="fa fa-instagram"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/natasha-patnaik-6464311ba" target="_blank">
+                <i class="fa fa-linkedin"></i>
+            </a>
+        </div>
+    </section>  
+</section>
+            <section class="pendulum">
+                <div class="row">
+                    <div class="pendulum-col">
+                        <img src="images/beamdeflection.png">
+                    </div>
+                    
+                    <div class="pendulum-col">
+                        <p> 
+                            This laboratory comprised of producing a lab report predominantly focusing on the nature of the three means of acquiring results and which method is deemed as being more accurate. 
+                        </p>
+                        <p>
+                            The main purpose of this lab was to observe the behaviour of a simple beam when a force (point load) was applied gradually at the hanger, such as observing beam deflection and strains acting on the beam. The behaviour was tested for statically determinate and indeterminate cases and the observed experimental results were thereby compared against the ones predictions made using the theory. Finally, the same experimental set up was modelled on a finite element analysis software called Abaqus to produce both 1D and 3D models of the beam.
+                        </p>
+                           <!----- <div class="pendulum-col">
+                                <img src="images/beamdeflection.png">
+                            </div> ---->
+                        <p>
+                            For the purpose of the lab report, only one (out of six) test cases was modelled computationally on Abaqus. As this test case was the statically indeterminate case, the computational results were not consistent with those suggested by theory and observed experimentally. There was also a relatively big margin of error between the theoretical and experimental results. To me, there’s no conclusive answer to which of the three methods of extracting results was the ‘winner’ in this case, which is perhaps not the answer you were looking for. However, being able to produce a 3D model what was conducted as an experimental lab as well as observe the behaviour of the beam computationally was very interesting.
+                        </p>
+                    </div>
+                    
+                </div>
+             </section>
+
+    </section>
+
+
+
+   <!-----JavaScript for Toggle Menu------>
+   <script>
+    var navLinks = document.getElementById("navLinks")
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-300px";
+    }
+    </script>
+</body>
+</html>

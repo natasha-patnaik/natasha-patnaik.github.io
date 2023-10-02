@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="engineering.html">ENGINEERING</a></li>
+                    <li><a href="photography.html">PHOTOGRAPHY</a></li>
+                    <li><a href="more.html">MORE </a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()""></i>
+        </nav>
+    <h1>CAD</h1>
+    <section class="footerProjects">
+        <div class="icons">
+            <a href="https://www.instagram.com/natashapatnaik" target="_blank">
+                <i class="fa fa-instagram"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/natasha-patnaik-6464311ba" target="_blank">
+                <i class="fa fa-linkedin"></i>
+            </a>
+        </div>
+    </section>  
+</section>
+
+            <section class="pendulum">
+                <div class="row">
+                    <div class="pendulum-col">
+                        <img src="images/IMG_0749.jpg">
+                    </div>
+                    <div class="pendulum-col">
+                        <p> Computational aided design, also known as CAD, is a very useful tool in engineering as it allows us to produce 3D models of a prototype that is to be manufactured or 3D-printed, for example. Whilst there are various CAD software that are also often similar, the one that I am most familiar with is 3DExperience as this has been used extensively for projects for my course at university. Here are some of the pieces from projects that involved CAD. 
+                        </p>
+                        <p>
+                            One of the major projects in term one involved producing a hypothetical, small low-cost electric vehicle (EV) within given constraints. This was a group project that spanned for one month. The tasks were divided within sub-groups, where each sub-group focused on producing CAD models of a specific part of the car. One of my team-mates and I focused on the rear assembly of the electric car, where we produced CAD designs of components such as the wishbone, the rear axle and the gearbox. Other sub-groups focused on the front and steering assembly and combining the front and rear assembly using a chassis.
+                        </p>
+                        <p>
+                            Note: some of the elements such as the passenger seats, steering wheel and the tyres were imported from the GrabCAD library.
+                        </p>
+                    </div>
+                    
+                </div>
+             </section>
+
+    </section>
+
+
+
+   <!-----JavaScript for Toggle Menu------>
+   <script>
+    var navLinks = document.getElementById("navLinks")
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-300px";
+    }
+    </script>
+</body>
+</html>

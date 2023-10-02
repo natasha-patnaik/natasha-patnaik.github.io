@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="engineering.html">ENGINEERING</a></li>
+                    <li><a href="photography.html">PHOTOGRAPHY</a></li>
+                    <li><a href="more.html">MORE </a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+<h1>Projects</h1>
+<p> Here you will find some of my engineering-based projects.</p>
+
+    <section class="footerProjects">
+        <div class="icons">
+            <a href="https://www.instagram.com/natashapatnaik" target="_blank">
+                <i class="fa fa-instagram"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/natasha-patnaik-6464311ba" target="_blank">
+                <i class="fa fa-linkedin"></i>
+            </a>
+        </div>
+    </section>  
+        
+    </section>
+    <!---Projects-->
+    <section class="engineering">         
+        <div class="row">
+            <div class="course-col">
+                    <h3>MATLAB App</h3>
+                    <img src="images/1692877216872.jpeg">
+                <a href="matlabapp.html" class="red-btnProjects">Learn More</a>
+            </div>
+            <div class="course-col">
+                    <h3>Pendulum Animation</h3>
+                    <img src="images/1692351547099.gif">
+                <a href="pendulum.html" class="red-btnProjects">Learn More</a>
+            </div>
+            <div class="course-col">
+                    <h3>CAD</h3>
+                    <img src="images/IMG_0749.jpg">
+                <a href="CAD.html" class="red-btnProjects">Learn More</a>
+            </div>
+        </div>  
+        <div class="row">  
+            <div class="course-col">
+                    <h3>Flight Simulator</h3>
+                    <img src="images/IMG_5344.jpeg">
+                <a href="flightsim.html" class="red-btnProjects">Learn More</a>
+            </div>
+            <div class="course-col">
+                    <h3>Beam Bending Simulation</h3>
+                    <img src="images/beamdeflection - Copy.png">
+                <a href="beambending.html" class="red-btnProjects">Learn More</a>
+            </div>
+            <div class="course-col">
+                    <h3>Aeroelasticity</h3>
+                    <img src="images/2023-05-17-2.png">
+                <a href="aeroelasticity.html" class="red-btnProjects">Learn More</a>
+            </div>
+        </div>
+    </section>
+
+   <!-----JavaScript for Toggle Menu------>
+   <script>
+    var navLinks = document.getElementById("navLinks")
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-300px";
+    }
+    </script>
+</body>
+</html>

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="engineering.html">ENGINEERING</a></li>
+                    <li><a href="photography.html">PHOTOGRAPHY</a></li>
+                    <li><a href="more.html">MORE </a></li>
+                    
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()""></i>
+        </nav>
+<h1>About Me</h1>
+<p>My name is Natasha Patnaik.</p>
+
+    <section class="footerProjects">
+        <div class="icons">
+            <a href="https://www.instagram.com/natashapatnaik" target="_blank">
+                <i class="fa fa-instagram"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/natasha-patnaik-6464311ba" target="_blank">
+                <i class="fa fa-linkedin"></i>
+            </a>
+        </div>
+    </section>  
+</section>
+    <!---About-->
+     <section class="about-me">
+
+        <div class="row">
+            <div class="about-col">
+                <h1>Hello and welcome to my site!</h1>
+                <p>Born and raised in India, I moved to the UK at the age of ten. Based in London, I concluded my secondary education and embarked on my journey to study my dream course at Imperial College London where I am currently pursuing Aeronautical Engineering as my undergraduate degree.</p>
+                <p>The transition to university life has been an exhilarating experience. In my first year itself, being in university has helped me explore things about myself which have been tremendously rewarding. Meeting and interacting with individuals from diverse backgrounds and the chance to expand my network have provided me with valuable learning experiences and the motivation to grow as a person.</p>
+                <p>I brought this site to life to share a glimpse of my life with you all. I hope you enjoy!</p>
+                <div class="row">
+                    <a href="engineering.html" class="red-btnEng">Engineering ></a>
+                </div>
+                <div class="row">
+                    <a href="photography.html" class="red-btnEng">Photography ></a>
+                </div>
+                <div class="row">
+                    <a href="more.html" class="red-btnEng">More ></a>
+                </div>
+            </div>
+            <div class="about-col">
+               <!--- <div class="slider-frame">
+                     <div class="slide-images">
+                        <div class="img-container">
+                            <img src="images/IMG_6805.jpg">
+                        </div>
+                        <div class="img-container">
+                            <img src="images/IMG_6804.jpg">
+                        </div>
+                        <div class="img-container">
+                            <img src="images/IMG_5556.JPG">
+                        </div>
+                    </div> 
+                </div> --->
+                <img src="images/IMG_8400.jpeg">
+            </div>
+        </div>
+     </section>
+
+
+   <!-----JavaScript for Toggle Menu------>
+   <script>
+    var navLinks = document.getElementById("navLinks")
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-300px";
+    }
+    </script>
+</body>
+</html>

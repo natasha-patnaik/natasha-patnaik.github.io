@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="engineering.html">ENGINEERING</a></li>
+                    <li><a href="photography.html">PHOTOGRAPHY</a></li>
+                    <li><a href="more.html">MORE </a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()""></i>
+        </nav>
+    <h1>Pendulum</h1>
+    <section class="footerProjects">
+        <div class="icons">
+            <a href="https://www.instagram.com/natashapatnaik" target="_blank">
+                <i class="fa fa-instagram"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/natasha-patnaik-6464311ba" target="_blank">
+                <i class="fa fa-linkedin"></i>
+            </a>
+        </div>
+    </section>  
+</section>
+
+            <section class="pendulum">
+                <div class="row">
+                    <div class="pendulum-col">
+                        <img src="images/1692351547099.gif">
+                    </div>
+                    <div class="pendulum-col">
+                        <p> I used MATLAB code to generate a dynamic pendulum animation that captures the motion of a swinging pendulum. This animation provides a clear understanding of the pendulum's oscillations, thanks to a unique feature: the pendulum bob's colour changes dynamically with respect to its movement of direction. When the pendulum swings towards the left, it adopts a blue colour, while it transitions to red as it swings towards the right. </p>
+                        <p>Creating this engaging animation required meticulous attention to detail. This project was completed as a task for an online course I completed. The x- and y-positions of the pendulum were provided in the course and I had to use the given data  to produce a pendulum in motion.</p>
+                        <p>Viewers can easily follow the pendulum's motion, gain insights into its behaviour, and understand the dynamic nature of its motion. This animation serves as an informative and captivating tool for anyone interested in understanding the mechanics of a swinging pendulum while simultaneously offering an aesthetically pleasing visual experience.</p>
+                    </div>
+                    
+                </div>
+             </section>
+
+    </section>
+
+
+<!----Footer---->
+
+
+   <!-----JavaScript for Toggle Menu------>
+   <script>
+    var navLinks = document.getElementById("navLinks")
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-300px";
+    }
+    </script>
+</body>
+</html>
